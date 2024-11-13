@@ -1,0 +1,66 @@
+{% extends "base.html"%}
+
+{%block title%}
+Контакты
+{%endblock%}
+
+{% block body%}
+
+
+<div class="container">
+    
+    <!-- Заголовок -->
+    <div class="contact-title">Свяжитесь с нами</div>
+
+    <!-- Форма и карта рядом -->
+    <div class="section form-map-container">
+        <!-- Форма обратной связи -->
+         
+        <div class="contact-form">
+            <form id="contactForm" method = post>
+                <label for="name">Имя <span style="color: red;">*</span></label>
+                <input type="text" id="name" name="req_name" placeholder="Ваше имя" required>
+                
+                <label for="email">Email <span style="color: red;">*</span></label>
+                <input type="email" id="email" name="req_email" placeholder="Ваш email" required>
+                
+                <label for="message">Сообщение <span style="color: red;">*</span></label>
+                <textarea id="message" name="req_message" rows="5" placeholder="Ваше сообщение" required></textarea>
+                
+                <button type="submit">Отправить сообщение</button>
+
+                <p id="successMessage" style="color: green; display: none;">Ваш отзыв успешно отправлен!</p>
+
+            </form>
+        </div>
+
+        <!-- Карта -->
+        <div class="map-container">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2742.4579029609665!2d69.5853444!3d42.3417284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aefd50597e4a67%3A0x1234567890abcdef!2sShymkent%2C%20Kazakhstan!5e0!3m2!1sen!2s!4v1600000000000!5m2!1sen!2s"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+    </div>
+</div>
+
+
+ <!-- Контактная информация -->
+ <div class="section contact-info">
+    <div>
+        <i class="fas fa-phone"></i>
+        <p>+7 (777) 123-45-67</p>
+    </div>
+    <div>
+        <i class="fas fa-envelope"></i>
+        <p>coffee@shop.com</p>
+    </div>
+    <div>
+        <i class="fas fa-map-marker-alt"></i>
+        <p>г. Шымкент, ул. Байдибек би, 123</p>
+    </div>
+</div>
+
+
+
+{%endblock%}

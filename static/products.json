@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "Кофе эспрессо",
+        "price": 500,
+        "description": "Наслаждайтесь насыщенным вкусом.",
+        "image": "static/img/espresso.webp"
+    },
+    {
+        "id": 2,
+        "name": "Кофе американо",
+        "price": 400,
+        "description": "Легкий и ароматный напиток.",
+        "image": "static/img/americano.webp"
+    },
+    {
+        "id": 3,
+        "name": "Чай зелёный",
+        "price": 300,
+        "description": "Чистота и свежесть в каждой чашке.",
+        "image": "static/img/tea_green.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Кофейные аксессуары",
+        "price": 700,
+        "description": "Все необходимое для приготовления.",
+        "image": "static/img/coffe_acsses.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Кофе латте",
+        "price": 450,
+        "description": "Сладкий и кремовый вкус.",
+        "image": "static/img/latte.webp"
+    },
+    {
+        "id": 6,
+        "name": "Кофе капучино",
+        "price": 550,
+        "description": "Нежное сочетание кофе и молока.",
+        "image": "static/img/capuchino.webp"
+    },
+    {
+        "id": 7,
+        "name": "Чай черный",
+        "price": 350,
+        "description": "Ароматный и крепкий.",
+        "image": "static/img/tee_black.webp"
+    },
+    {
+        "id": 8,
+        "name": "Кофе мокко",
+        "price": 600,
+        "description": "Шоколадный вкус в каждом глотке.",
+        "image": "static/img/mokko.webp"
+    },
+    {
+        "id": 9,
+        "name": "Кофе с сиропом",
+        "price": 650,
+        "description": "Ароматные добавки для вашего удовольствия.",
+        "image": "static/img/sirop_coffe.webp"
+    },
+    {
+        "id": 10,
+        "name": "Кофе с корицей",
+        "price": 520,
+        "description": "Теплый и пряный вкус.",
+        "image": "static/img/coffe_kori.webp"
+    },
+    {
+        "id": 11,
+        "name": "Травяной чай",
+        "price": 400,
+        "description": "Отличный выбор для расслабления.",
+        "image": "static/img/grass_tea.webp"
+    },
+    {
+        "id": 12,
+        "name": "Кофе с молоком",
+        "price": 480,
+        "description": "Классический напиток для любителей мягкости.",
+        "image": "static/img/coffe_milk.webp"
+    },
+    {
+        "id": 13,
+        "name": "Африканский кофе",
+        "price": 700,
+        "description": "Экзотика и уникальный вкус.",
+        "image": "static/img/afrik_coffe.webp"
+    },
+    {
+        "id": 14,
+        "name": "Итальянский кофе",
+        "price": 600,
+        "description": "Идеальный баланс аромата и крепости.",
+        "image": "static/img/italian_coffe.webp"
+    },
+    {
+        "id": 15,
+        "name": "Кофе с карамелью",
+        "price": 550,
+        "description": "Сладкий и насыщенный вкус.",
+        "image": "static/img/coffe_caramel.jpg"
+    }
+]

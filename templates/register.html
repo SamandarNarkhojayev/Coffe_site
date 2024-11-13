@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block title %}
+Зарегистрироваться
+{% endblock %}
+
+{% block body %}
+
+<div class="container_log">
+  <div class="wrapper">
+    <div class="title">
+      Регистрация
+    </div>
+    
+    <form method="post">
+       <div class="field">
+          <input type="text" name="username" required>
+          <label>Имя пользователя</label>
+       </div>
+
+       <div class="field">
+          <input type="email" name="email" required>
+          <label>Email</label>
+       </div>
+
+       <div class="field">
+          <input type="password" name="password" required>
+          <label>Пароль</label>
+       </div>
+
+       <div class="field">
+          <input type="password" name="password2" required>
+          <label>Повторите пароль</label>
+       </div>
+
+       <div class="content">
+          {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <ul>
+              {% for message in messages %}
+                <li style="color: #262626;">{{ message }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+          {% endwith %}
+       </div>
+
+       <div class="field">
+          <input type="submit" value="Зарегистрироваться">
+       </div>
+
+       <div class="signup-link">
+           Уже есть аккаунт? <a href="{{ url_for('login') }}">Войти</a>
+       </div>
+    </form>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+{% endblock %}
